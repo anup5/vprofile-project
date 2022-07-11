@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages{
-        stage('Fetch code') {
+        stage('Fetch code ...') {
           steps{
               git branch: 'v1', url:'https://github.com/anup5/vprofile-repo.git'
           }  
