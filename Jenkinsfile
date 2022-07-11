@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Fetch code') {
           steps{
-              git branch: 'v1', credentialsId: 'github', url:'https://github.com/anup5/vprofile-repo.git'
+              git branch: 'v1', url:'https://github.com/anup5/vprofile-repo.git'
           }  
         }
 
